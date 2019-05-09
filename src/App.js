@@ -32,11 +32,11 @@ const customers = [
 function App() {
   return (
     {
-      customers.map(c => {
+      customers.(c => {
         return (
-          <Customer data={customer}/>
+          <Customer data={c}/>
         );
-      })
+      });
     }
     
   );
